@@ -174,3 +174,62 @@ export function CalendarIcon(props: IconProps) {
     </svg>
   );
 }
+
+export function WaveIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <rect x="3" y="6" width="18" height="10" rx="1" strokeDasharray="1.5 2" />
+      <path d="M3 20c1.8-1.6 3.6-1.6 5.4 0 1.8 1.6 3.6 1.6 5.4 0 1.8-1.6 3.6-1.6 5.4 0" />
+      <path d="M6 11h12" />
+    </svg>
+  );
+}
+
+export function TerraceIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M3 20V11l6-5 6 5v9" strokeDasharray="none" />
+      <path d="M15 20v-6h6v6" />
+      <path d="M3 20h18" />
+      <path d="M3 15h6M6 15v5" strokeDasharray="1.4 1.8" />
+    </svg>
+  );
+}
+
+export function SmallHouseIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 20V12l6-4.5 6 4.5v8" />
+      <path d="M4 20h12" />
+      <path d="M8 20v-5h4v5" />
+      <path d="M14 12h4a1.5 1.5 0 0 1 1.5 1.5V20H14" strokeDasharray="1.4 1.8" />
+    </svg>
+  );
+}
+
+export function HeartHomeIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 20V11l8-6 8 6v9" />
+      <path d="M4 20h16" />
+      <path d="M12 17.5c-2.4-1.5-3.6-2.8-3.6-4.3a2 2 0 0 1 3.6-1.2 2 2 0 0 1 3.6 1.2c0 1.5-1.2 2.8-3.6 4.3z" />
+    </svg>
+  );
+}
+
+export function LightningIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M13 2.5L5 13.5h5.5L10.5 21.5 19 10.5h-5.5L13 2.5z" />
+    </svg>
+  );
+}
+
+export function EuroIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M17 6.5a7 7 0 1 0 0 11" />
+      <path d="M4.5 10.5h8M4.5 13.5h7" />
+    </svg>
+  );
+}
