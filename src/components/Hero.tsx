@@ -17,8 +17,8 @@ export function Hero({ content }: { content: LandingPageContent }) {
     <section className="relative flex min-h-[100svh] items-end overflow-hidden">
       <div className="absolute inset-0 animate-ken-burns">
         <Image
-          src="/images/hero-drafting-desk.jpg"
-          alt="Een vergunningtekening wordt met de hand ingetekend op een werktafel"
+          src="/images/moderne-aanbouw-hero.jpg"
+          alt="Moderne aanbouw met glazen gevel tegen een blauwe lucht"
           fill
           priority
           sizes="100vw"
