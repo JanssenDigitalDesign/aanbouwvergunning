@@ -1,10 +1,11 @@
-// A roofline pictogram — bolder and slightly larger than a generic house
-// icon so it still reads clearly at header size.
+// A house-plus-extension pictogram instead of the plain roofline used on
+// the other JDD sites — this is the aanbouw brand.
 export function BrandIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" className={className} fill="none" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M4 12.5L12 5.5L20 12.5" stroke="currentColor" strokeWidth="1.9" />
-      <path d="M4 12.5V19M20 12.5V19" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M3 19V10L11 4.5L19 10V19" stroke="currentColor" strokeWidth="1.7" />
+      <path d="M3 19h16" stroke="currentColor" strokeWidth="1.7" />
+      <path d="M19 13h2a1.5 1.5 0 0 1 1.5 1.5V19H19" stroke="currentColor" strokeWidth="1.5" strokeDasharray="1.4 1.6" />
     </svg>
   );
 }

@@ -2,7 +2,7 @@
 
 :root {
   --background: #faf7f1;
-  --foreground: #0e1013;
+  --foreground: #16120f;
 
   /* Brand palette — warm ink + paper, the "editorial studio" combination
      (award-winning creative-studio sites) instead of a flat corporate
@@ -18,13 +18,13 @@
      kept as brand-navy/beige/gold (legacy) so every existing className
      across the codebase keeps working — only the values and their role
      nuance changed. */
-  --brand-navy: #0e1013;
-  --brand-navy-dark: #07080a;
-  --brand-navy-light: #22262c;
+  --brand-navy: #16120f;
+  --brand-navy-dark: #0b0906;
+  --brand-navy-light: #241d18;
   --brand-beige: #faf7f1;
   --brand-beige-dark: #f1ead9;
-  --brand-gold: #c08a3e;
-  --brand-gold-dark: #8c5f26;
+  --brand-gold: #c1652f;
+  --brand-gold-dark: #8f471e;
   --brand-ink-muted: #6b6459;
   --brand-line: rgba(14, 16, 19, 0.12);
 }
